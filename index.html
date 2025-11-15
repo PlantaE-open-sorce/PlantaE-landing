@@ -25,9 +25,9 @@
             <div class="navbar__menu">
                 <ul class="navbar__links">
                     <li><a href="#home" data-i18n="footer.sections.home">Home</a></li>
+                                        <li><a href="#about-product" data-i18n="footer.sections.product">Producto</a></li>
                     <li><a href="#about-us" data-i18n="footer.sections.about">About Us</a></li>
-                                        <li><a href="#about-the-product" data-i18n="footer.sections.product">Product</a></li>
-                                        <li><a href="#benefits" data-i18n="footer.sections.benefits">Benefits</a></li>
+                    <li><a href="#benefits" data-i18n="footer.sections.benefits">Benefits</a></li>
                     <li><a href="#testimonies" data-i18n="footer.sections.testimonials">Testimonials</a></li>
                     <li><a href="#questions" data-i18n="footer.sections.questions">Questions</a></li>
                     <li><a href="#contacto" data-i18n="footer.sections.contact">Contact</a></li>
@@ -65,7 +65,36 @@
     </header>
 
     <main>
-        <section class="about-us" id="about-us">
+                <section class="about-product-section" id="about-product">
+            <div class="product-content">
+                <h2 class="product-title" data-i18n="product.title">PlantaE: Vistazo a la Plataforma</h2>
+                <p class="product-description" data-i18n="product.description">
+                    Descubre en acción cómo nuestra plataforma web te permite **monitorear y gestionar tus cultivos** de manera inteligente. El video muestra:
+                </p>
+                <ul>
+                    <li>El **control de usuario** para ver plantas activas y su estado.</li>
+                    <li>El **registro manual de acciones** (como riego) con notas, fechas y duración.</li>
+                    <li>La **gestión de sensores** y la funcionalidad de búsqueda para diferentes cultivos.</li>
+                    <li>El **panel del vivero** para registrar insumos y costos, facilitando la gestión administrativa.</li>
+                </ul>
+
+                <div class="product-video-embed" style="margin: 20px auto; max-width: 560px;">
+                                        <iframe
+                        width="100%"
+                        height="315"
+                        src="https://www.youtube.com/embed/0o4FBFvhz3g"
+                        title="PlantaE Product Demo - UPC EcoTech"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        style="aspect-ratio: 16/9; border-radius: 8px;"
+                    ></iframe>
+                </div>
+
+                <a href="http://www.youtube.com/watch?v=0o4FBFvhz3g" target="_blank" class="btn-start" style="display: block; width: fit-content; margin: 20px auto;">Ver video completo en YouTube</a>
+            </div>
+        </section>
+                <section class="about-us" id="about-us">
             <div class="about-us-content">
                 <h1 class="about-us-title" data-i18n="aboutUs.title">¿Quiénes somos?</h1>
 
@@ -119,30 +148,7 @@
             </div>
         </section>
 
-        <section class="about-the-product" id="about-the-product">
-            <div class="product-video-content">
-                <h1 class="product-video-title" data-i18n="productVideo.title">Conoce el Producto</h1>
-                <p class="product-video-description" data-i18n="productVideo.description">
-                    Mira este video para una explicación completa de cómo funciona PlantaE, la solución de monitoreo inteligente para tus cultivos urbanos.
-                </p>
-                <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
-                    <iframe 
-                        width="560" 
-                        height="315" 
-                        src="https://www.youtube.com/embed/0o4FBFvhz3g" 
-                        title="YouTube video player - PlantaE Product Overview" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen 
-                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                    ></iframe>
-                </div>
-                <p class="video-link" style="margin-top: 20px; text-align: center;">
-                    <a href="https://youtu.be/0o4FBFvhz3g" target="_blank" data-i18n="productVideo.linkText">Ver el video en YouTube (Enlace original)</a>
-                </p>
-            </div>
-        </section>
-                <section class="benefits" id="benefits">
+        <section class="benefits" id="benefits">
             <div class="benefits-content">
                 <h1 class="benefits-title" data-i18n="benefits.title">Beneficios</h1>
 
