@@ -1,409 +1,433 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="language" content="es" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/style/styles.css" />
-    <title>PlantaE - Monitoreo Inteligente de Cultivos Urbanos</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="language" content="es" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/style/styles.css" />
+    <title>PlantaE - Monitoreo Inteligente de Cultivos Urbanos</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <h1 class="navbar__logo">
-                <img src="assets/img/icons/EcoTech.png" alt="Logo de PlantaE" />
-            </h1>
+    <header>
+        <nav class="navbar">
+            <h1 class="navbar__logo">
+                <img src="assets/img/icons/EcoTech.png" alt="Logo de PlantaE" />
+            </h1>
 
-            <button class="navbar__toggle" id="navToggle" aria-label="Menú">
-                <span class="material-icons">menu</span>
-            </button>
+            <button class="navbar__toggle" id="navToggle" aria-label="Menú">
+                <span class="material-icons">menu</span>
+            </button>
 
-            <div class="navbar__menu">
-                <ul class="navbar__links">
-                    <li><a href="#home" data-i18n="footer.sections.home">Home</a></li>
-                    <li><a href="#about-us" data-i18n="footer.sections.about">About Us</a></li>
-                    <li><a href="#benefits" data-i18n="footer.sections.benefits">Benefits</a></li>
-                    <li><a href="#testimonies" data-i18n="footer.sections.testimonials">Testimonials</a></li>
-                    <li><a href="#questions" data-i18n="footer.sections.questions">Questions</a></li>
-                    <li><a href="#contacto" data-i18n="footer.sections.contact">Contact</a></li>
-                    <li><a href="#download" data-i18n="footer.sections.download">Download</a></li>
-                </ul>
-                <div class="navbar__actions">
-                    <select id="selector-idioma">
-                        <option value="es">Español</option>
-                        <option value="en">English</option>
-                    </select>
-                    <button id="boton-tema" aria-label="Cambiar tema">🌙 Noche</button>
-                </div>
-            </div>
-        </nav>
+            <div class="navbar__menu">
+                <ul class="navbar__links">
+                    <li><a href="#home" data-i18n="footer.sections.home">Home</a></li>
+                    <li><a href="#about-us" data-i18n="footer.sections.about">About Us</a></li>
+                                        <li><a href="#about-the-product" data-i18n="footer.sections.product">Product</a></li>
+                                        <li><a href="#benefits" data-i18n="footer.sections.benefits">Benefits</a></li>
+                    <li><a href="#testimonies" data-i18n="footer.sections.testimonials">Testimonials</a></li>
+                    <li><a href="#questions" data-i18n="footer.sections.questions">Questions</a></li>
+                    <li><a href="#contacto" data-i18n="footer.sections.contact">Contact</a></li>
+                    <li><a href="#download" data-i18n="footer.sections.download">Download</a></li>
+                </ul>
+                <div class="navbar__actions">
+                    <select id="selector-idioma">
+                        <option value="es">Español</option>
+                        <option value="en">English</option>
+                    </select>
+                    <button id="boton-tema" aria-label="Cambiar tema">🌙 Noche</button>
+                </div>
+            </div>
+        </nav>
 
-        <section class="hero" id="home">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 data-i18n="hero.title">Monitorea y cuida tus plantas con tecnología IoT</h1>
-                    <h2 class="subtitle" data-i18n="hero.subtitle">Presentado por EcoTech</h2>
-                    <p data-i18n="hero.description">
-                        Supervisa tus cultivos urbanos en tiempo real, recibe alertas de riego y recomendaciones personalizadas.
-                    </p>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 data-i18n="hero.title">Monitorea y cuida tus plantas con tecnología IoT</h1>
+                    <h2 class="subtitle" data-i18n="hero.subtitle">Presentado por EcoTech</h2>
+                    <p data-i18n="hero.description">
+                        Supervisa tus cultivos urbanos en tiempo real, recibe alertas de riego y recomendaciones personalizadas.
+                    </p>
 
-                    <div class="hero-buttons">
-                        <a href="http://20.57.10.48/login" target="_blank" class="btn-start">Descubre más</a>
-                    </div>
-                </div>
+                    <div class="hero-buttons">
+                        <a href="http://20.57.10.48/login" target="_blank" class="btn-start">Descubre más</a>
+                    </div>
+                </div>
 
-                <div class="hero-image">
-                    <img src="assets/img/icons/hero-image.jpg" alt="Cultivos urbanos con sensores IoT" />
-                </div>
-            </div>
-        </section>
-    </header>
+                <div class="hero-image">
+                    <img src="assets/img/icons/hero-image.jpg" alt="Cultivos urbanos con sensores IoT" />
+                </div>
+            </div>
+        </section>
+    </header>
 
-    <main>
-        <section class="about-us" id="about-us">
-            <div class="about-us-content">
-                <h1 class="about-us-title" data-i18n="aboutUs.title">¿Quiénes somos?</h1>
+    <main>
+        <section class="about-us" id="about-us">
+            <div class="about-us-content">
+                <h1 class="about-us-title" data-i18n="aboutUs.title">¿Quiénes somos?</h1>
 
-                <p class="about-us-description" data-i18n="aboutUs.description">
-                    Somos <b>EcoTech</b>, una startup universitaria comprometida con la sostenibilidad urbana. Desarrollamos soluciones IoT para aficionados 
-                    a la jardinería, dueños de viveros y familias con huertos, promoviendo el cuidado responsable de plantas y cultivos urbanos.
+                <p class="about-us-description" data-i18n="aboutUs.description">
+                    Somos <b>EcoTech</b>, una startup universitaria comprometida con la sostenibilidad urbana. Desarrollamos soluciones IoT para aficionados 
+                    a la jardinería, dueños de viveros y familias con huertos, promoviendo el cuidado responsable de plantas y cultivos urbanos.
+                </p>
+
+                <section class="seccion-servicios">
+                    <h1 data-i18n="aboutUs.services.title">Servicios</h1>
+
+                    <div class="carrusel-servicios">
+                        <button class="control-carrusel" id="prev">‹</button>
+
+                        <div class="contenedor-carrusel" id="carrusel">
+                            <div class="item-servicio">Monitoreo ambiental con sensores IoT</div>
+                            <div class="item-servicio">Alertas inteligentes y recomendaciones personalizadas</div>
+                            <div class="item-servicio">Panel de control para hogares y viveros</div>
+                            <div class="item-servicio">Gestión digital de cultivos y programación de riego</div>
+                            <div class="item-servicio">Análisis predictivo de datos climáticos y de suelo</div>
+                            <div class="item-servicio">Automatización de riego y control de temperatura</div>
+                            <div class="item-servicio">Reportes visuales y exportación de métricas</div>
+                            <div class="item-servicio">Gestión de múltiples ubicaciones y dispositivos</div>
+                            <div class="item-servicio">Alertas por SMS, correo o notificaciones</div>
+                            <div class="item-servicio">Integración con plataformas de agricultura inteligente</div>
+                        </div>
+
+                        <button class="control-carrusel" id="next">›</button>
+                    </div>
+                </section>
+                
+                <div class="about-us-cards">
+                    <div class="card">
+                        <img src="assets/img/about-us/iot-monitoring.jpg" alt="Monitoreo IoT" />
+                        <h3 data-i18n="aboutUs.cards.monitoring.title">Monitoreo IoT</h3>
+                        <p data-i18n="aboutUs.cards.monitoring.text">Supervisa humedad, temperatura, luz y calidad del aire en tiempo real con sensores IoT.</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/img/about-us/alerts.jpg" alt="Alertas inteligentes" />
+                        <h3 data-i18n="aboutUs.cards.alerts.title">Alertas inteligentes</h3>
+                        <p data-i18n="aboutUs.cards.alerts.text">Recibe notificaciones y recomendaciones personalizadas para el cuidado de tus plantas.</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/img/about-us/sustainability.jpg" alt="Sostenibilidad" />
+                        <h3 data-i18n="aboutUs.cards.sustainability.title">Sostenibilidad</h3>
+                        <p data-i18n="aboutUs.cards.sustainability.text">Optimiza el uso de agua y recursos para un impacto ambiental positivo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-the-product" id="about-the-product">
+            <div class="product-video-content">
+                <h1 class="product-video-title" data-i18n="productVideo.title">Conoce el Producto</h1>
+                <p class="product-video-description" data-i18n="productVideo.description">
+                    Mira este video para una explicación completa de cómo funciona PlantaE, la solución de monitoreo inteligente para tus cultivos urbanos.
                 </p>
-
-                <section class="seccion-servicios">
-                    <h1 data-i18n="aboutUs.services.title">Servicios</h1>
-
-                    <div class="carrusel-servicios">
-                        <button class="control-carrusel" id="prev">‹</button>
-
-                        <div class="contenedor-carrusel" id="carrusel">
-                            <div class="item-servicio">Monitoreo ambiental con sensores IoT</div>
-                            <div class="item-servicio">Alertas inteligentes y recomendaciones personalizadas</div>
-                            <div class="item-servicio">Panel de control para hogares y viveros</div>
-                            <div class="item-servicio">Gestión digital de cultivos y programación de riego</div>
-                            <div class="item-servicio">Análisis predictivo de datos climáticos y de suelo</div>
-                            <div class="item-servicio">Automatización de riego y control de temperatura</div>
-                            <div class="item-servicio">Reportes visuales y exportación de métricas</div>
-                            <div class="item-servicio">Gestión de múltiples ubicaciones y dispositivos</div>
-                            <div class="item-servicio">Alertas por SMS, correo o notificaciones</div>
-                            <div class="item-servicio">Integración con plataformas de agricultura inteligente</div>
-                        </div>
-
-                        <button class="control-carrusel" id="next">›</button>
-                    </div>
-                </section>
-                
-                <div class="about-us-cards">
-                    <div class="card">
-                        <img src="assets/img/about-us/iot-monitoring.jpg" alt="Monitoreo IoT" />
-                        <h3 data-i18n="aboutUs.cards.monitoring.title">Monitoreo IoT</h3>
-                        <p data-i18n="aboutUs.cards.monitoring.text">Supervisa humedad, temperatura, luz y calidad del aire en tiempo real con sensores IoT.</p>
-                    </div>
-
-                    <div class="card">
-                        <img src="assets/img/about-us/alerts.jpg" alt="Alertas inteligentes" />
-                        <h3 data-i18n="aboutUs.cards.alerts.title">Alertas inteligentes</h3>
-                        <p data-i18n="aboutUs.cards.alerts.text">Recibe notificaciones y recomendaciones personalizadas para el cuidado de tus plantas.</p>
-                    </div>
-
-                    <div class="card">
-                        <img src="assets/img/about-us/sustainability.jpg" alt="Sostenibilidad" />
-                        <h3 data-i18n="aboutUs.cards.sustainability.title">Sostenibilidad</h3>
-                        <p data-i18n="aboutUs.cards.sustainability.text">Optimiza el uso de agua y recursos para un impacto ambiental positivo.</p>
-                    </div>
+                <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+                    <iframe 
+                        width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/0o4FBFvhz3g" 
+                        title="YouTube video player - PlantaE Product Overview" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen 
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                    ></iframe>
                 </div>
-            </div>
-        </section>
-
-        <section class="benefits" id="benefits">
-            <div class="benefits-content">
-                <h1 class="benefits-title" data-i18n="benefits.title">Beneficios</h1>
-
-                <p class="benefits-description" data-i18n="benefits.description">
-                    Descubre cómo PlantaE te ayuda a cuidar tus plantas de manera eficiente y sostenible.
+                <p class="video-link" style="margin-top: 20px; text-align: center;">
+                    <a href="https://youtu.be/0o4FBFvhz3g" target="_blank" data-i18n="productVideo.linkText">Ver el video en YouTube (Enlace original)</a>
                 </p>
-
-                <div class="benefits-cards">
-                    <div class="benefits-card">
-                        <img src="assets/img/benefits/benefit-1.jpg" alt="Ahorro de agua" />
-                        <div class="benefits-text">
-                            <p data-i18n="benefits.cards.1">Ahorro de agua y recursos.</p>
-                        </div>
-                    </div>
-
-                    <div class="benefits-card alternate">
-                        <img src="assets/img/benefits/benefit-2.jpg" alt="Salud de plantas" />
-                        <div class="benefits-text">
-                            <p data-i18n="benefits.cards.2">Mayor salud y longevidad de tus plantas.</p>
-                        </div>
-                    </div>
-
-                    <div class="benefits-card">
-                        <img src="assets/img/benefits/benefit-3.jpg" alt="Control remoto" />
-                        <div class="benefits-text">
-                            <p data-i18n="benefits.cards.3">Control desde cualquier lugar.</p>
-                        </div>
-                    </div>
-
-                    <div class="benefits-card alternate">
-                        <img src="assets/img/benefits/benefit-4.jpg" alt="Bienestar ambiental" />
-                        <div class="benefits-text">
-                            <p data-i18n="benefits.cards.4">Contribución al bienestar ambiental.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
+                <section class="benefits" id="benefits">
+            <div class="benefits-content">
+                <h1 class="benefits-title" data-i18n="benefits.title">Beneficios</h1>
 
-        <section class="testimonios-section" id="testimonies">
-            <div class="container">
-                <h2 class="titulo-testimonios" data-i18n="testimonials.title">Testimonios</h2>
+                <p class="benefits-description" data-i18n="benefits.description">
+                    Descubre cómo PlantaE te ayuda a cuidar tus plantas de manera eficiente y sostenible.
+                </p>
 
-                <p class="descripcion-testimonios" data-i18n="testimonials.description">
-                    Escucha lo que nuestros usuarios dicen sobre cómo PlantaE ha transformado el cuidado de sus plantas.
-                </p>
+                <div class="benefits-cards">
+                    <div class="benefits-card">
+                        <img src="assets/img/benefits/benefit-1.jpg" alt="Ahorro de agua" />
+                        <div class="benefits-text">
+                            <p data-i18n="benefits.cards.1">Ahorro de agua y recursos.</p>
+                        </div>
+                    </div>
 
-                <div class="testimonios-cards">
-                    <div class="card-testimonio">
-                        <img src="assets/img/testimonials/testimonial-1.png" alt="Alejandro R."/>
+                    <div class="benefits-card alternate">
+                        <img src="assets/img/benefits/benefit-2.jpg" alt="Salud de plantas" />
+                        <div class="benefits-text">
+                            <p data-i18n="benefits.cards.2">Mayor salud y longevidad de tus plantas.</p>
+                        </div>
+                    </div>
 
-                        <div class="card-content">
-                            <h3 class="nombre" data-i18n="testimonials.cards.1.name">Alejandro R.</h3>
-                            <p class="rol" data-i18n="testimonials.cards.1.role">🌱 Amante de las plantas 🌱</p>
-                            <p class="comentario" data-i18n="testimonials.cards.1.comment">
-                                Desde que uso <b>PlantaE</b>, cuidar mis plantas dejó de ser una preocupación. Las alertas inteligentes me avisan justo cuando 
-                                necesitan agua o luz. ¡Ahora mi departamento parece un pequeño jardín botánico!
-                            </p>
-                        </div>
+                    <div class="benefits-card">
+                        <img src="assets/img/benefits/benefit-3.jpg" alt="Control remoto" />
+                        <div class="benefits-text">
+                            <p data-i18n="benefits.cards.3">Control desde cualquier lugar.</p>
+                        </div>
+                    </div>
 
-                        <div class="estrellas">
-                            ★★★★★
-                        </div>
-                    </div>
+                    <div class="benefits-card alternate">
+                        <img src="assets/img/benefits/benefit-4.jpg" alt="Bienestar ambiental" />
+                        <div class="benefits-text">
+                            <p data-i18n="benefits.cards.4">Contribución al bienestar ambiental.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                    <div class="card-testimonio">
-                        <img src="assets/img/testimonials/testimonial-2.png" alt="Katy P."/>
+        <section class="testimonios-section" id="testimonies">
+            <div class="container">
+                <h2 class="titulo-testimonios" data-i18n="testimonials.title">Testimonios</h2>
 
-                        <div class="card-content">
-                            <h3 class="nombre" data-i18n="testimonials.cards.2.name">Katy P.</h3>
-                            <p class="rol" data-i18n="testimonials.cards.2.role">👨‍🌾 Dueño de vivero 👨‍🌾</p>
-                            <p class="comentario" data-i18n="testimonials.cards.2.comment">
-                                Gracias a <b>PlantaE</b> logré automatizar el riego de mis cultivos. He reducido el consumo de agua en un 30% y mis clientes 
-                                notan la diferencia. Es como tener un asistente verde que nunca se equivoca.
-                            </p>
-                        </div>
+                <p class="descripcion-testimonios" data-i18n="testimonials.description">
+                    Escucha lo que nuestros usuarios dicen sobre cómo PlantaE ha transformado el cuidado de sus plantas.
+                </p>
 
-                        <div class="estrellas">
-                            ★★★★★
-                        </div>
-                    </div>
-                    
-                    <div class="card-testimonio">
+                <div class="testimonios-cards">
+                    <div class="card-testimonio">
+                        <img src="assets/img/testimonials/testimonial-1.png" alt="Alejandro R."/>
 
-                        <img src="assets/img/testimonials/testimonial-3.png" alt="Pedro Pablo K." />
-                        <div class="card-content">
-                            <h3 class="nombre" data-i18n="testimonials.cards.3.name">Pedro Pablo K.</h3>
-                            <p class="rol" data-i18n="testimonials.cards.3.role">🌾 Huerto urbano 🌾</p>
-                            <p class="comentario" data-i18n="testimonials.cards.3.comment">
-                                Con <b>PlantaE</b> aprendí a conocer mejor mis plantas. La app me muestra estadísticas y consejos en tiempo real. ¡Es increíble 
-                                ver cómo crecen sanas solo con un poco de tecnología y cariño!
-                            </p>
-                        </div>
+                        <div class="card-content">
+                            <h3 class="nombre" data-i18n="testimonials.cards.1.name">Alejandro R.</h3>
+                            <p class="rol" data-i18n="testimonials.cards.1.role">🌱 Amante de las plantas 🌱</p>
+                            <p class="comentario" data-i18n="testimonials.cards.1.comment">
+                                Desde que uso <b>PlantaE</b>, cuidar mis plantas dejó de ser una preocupación. Las alertas inteligentes me avisan justo cuando 
+                                necesitan agua o luz. ¡Ahora mi departamento parece un pequeño jardín botánico!
+                            </p>
+                        </div>
 
-                        <div class="estrellas">
-                            ★★★★☆
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                        <div class="estrellas">
+                            ★★★★★
+                        </div>
+                    </div>
 
-        <section class="faq-section" id="questions">
-            <h1 data-i18n="faq.title">Preguntas Frecuentes</h1>
+                    <div class="card-testimonio">
+                        <img src="assets/img/testimonials/testimonial-2.png" alt="Katy P."/>
 
-            <p class="subtitle" data-i18n="faq.subtitle">Foro de preguntas frecuentes</p>
+                        <div class="card-content">
+                            <h3 class="nombre" data-i18n="testimonials.cards.2.name">Katy P.</h3>
+                            <p class="rol" data-i18n="testimonials.cards.2.role">👨‍🌾 Dueño de vivero 👨‍🌾</p>
+                            <p class="comentario" data-i18n="testimonials.cards.2.comment">
+                                Gracias a <b>PlantaE</b> logré automatizar el riego de mis cultivos. He reducido el consumo de agua en un 30% y mis clientes 
+                                notan la diferencia. Es como tener un asistente verde que nunca se equivoca.
+                            </p>
+                        </div>
 
-            <div class="faq-grid">
-                <div class="faq-box">
-                    <div class="flex-desplegable" onclick="toggleFaq(this)">
-                        <h3 data-i18n="faq.items.1.question">¿Qué es PlantaE?</h3>
-                        <img class="flecha" src="assets/img/preguntas/flecha.svg" alt="Flecha desplegable" />
-                    </div>
+                        <div class="estrellas">
+                            ★★★★★
+                        </div>
+                    </div>
+                    
+                    <div class="card-testimonio">
 
-                    <p class="respuesta" data-i18n="faq.items.1.answer">
-                        <b>PlantaE</b> es una plataforma basada en tecnología IoT que te permite monitorear y cuidar tus cultivos urbanos de forma inteligente.  
-                        Gracias a sensores que recopilan datos sobre humedad, luz, temperatura y calidad del aire, puedes conocer el estado real de tus plantas en todo momento.  
-                        Además, la app te envía notificaciones y consejos personalizados para que se mantengan saludables sin que tengas que adivinar cuándo regarlas o abonarlas.
-                    </p>
-                </div>
+                        <img src="assets/img/testimonials/testimonial-3.png" alt="Pedro Pablo K." />
+                        <div class="card-content">
+                            <h3 class="nombre" data-i18n="testimonials.cards.3.name">Pedro Pablo K.</h3>
+                            <p class="rol" data-i18n="testimonials.cards.3.role">🌾 Huerto urbano 🌾</p>
+                            <p class="comentario" data-i18n="testimonials.cards.3.comment">
+                                Con <b>PlantaE</b> aprendí a conocer mejor mis plantas. La app me muestra estadísticas y consejos en tiempo real. ¡Es increíble 
+                                ver cómo crecen sanas solo con un poco de tecnología y cariño!
+                            </p>
+                        </div>
 
-                <div class="faq-box">
-                    <div class="flex-desplegable" onclick="toggleFaq(this)">
-                        <h3 data-i18n="faq.items.2.question">¿Cómo instalo los sensores?</h3>
-                        <img class="flecha" src="assets/img/preguntas/flecha.svg" alt="Flecha desplegable" />
-                    </div>
+                        <div class="estrellas">
+                            ★★★★☆
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                    <p class="respuesta" data-i18n="faq.items.2.answer">
-                        La instalación es muy sencilla: solo coloca los sensores en la maceta o cerca de la raíz de tus plantas,  
-                        conéctalos a la red Wi-Fi y sincronízalos con la aplicación <b>PlantaE</b>.  
-                        En pocos segundos, empezarás a recibir datos en tiempo real sobre las condiciones del entorno.  
-                        No necesitas conocimientos técnicos: la app te guía paso a paso con ilustraciones y un asistente virtual.
-                    </p>
-                </div>
+        <section class="faq-section" id="questions">
+            <h1 data-i18n="faq.title">Preguntas Frecuentes</h1>
 
-                <div class="faq-box full-width">
-                    <div class="flex-desplegable" onclick="toggleFaq(this)">
-                        <h3 data-i18n="faq.items.3.question">¿Es PlantaE adecuada para viveros?</h3>
-                        <img class="flecha" src="assets/img/preguntas/flecha.svg" alt="Flecha desplegable" />
-                    </div>
+            <p class="subtitle" data-i18n="faq.subtitle">Foro de preguntas frecuentes</p>
 
-                    <p class="respuesta" data-i18n="faq.items.3.answer">
-                        Sí, <b>PlantaE</b> ha sido diseñada tanto para hogares como para viveros.  
-                        Permite monitorear múltiples cultivos desde una misma plataforma, registrar datos históricos y programar riegos automáticos.  
-                        Los administradores pueden gestionar diferentes zonas, optimizar recursos y reducir el desperdicio de agua.  
-                        En viveros grandes, incluso es posible compartir el acceso con otros empleados o clientes para un control colaborativo.
-                    </p>
-                </div>
+            <div class="faq-grid">
+                <div class="faq-box">
+                    <div class="flex-desplegable" onclick="toggleFaq(this)">
+                        <h3 data-i18n="faq.items.1.question">¿Qué es PlantaE?</h3>
+                        <img class="flecha" src="assets/img/preguntas/flecha.svg" alt="Flecha desplegable" />
+                    </div>
 
-                <div class="faq-box">
-                    <div class="flex-desplegable" onclick="toggleFaq(this)">
-                        <h3 data-i18n="faq.items.4.question">¿Es fácil para alguien sin experiencia técnica?</h3>
-                        <img class="flecha" src="assets/img/preguntas/flecha.svg" alt="Flecha desplegable" />
-                    </div>
+                    <p class="respuesta" data-i18n="faq.items.1.answer">
+                        <b>PlantaE</b> es una plataforma basada en tecnología IoT que te permite monitorear y cuidar tus cultivos urbanos de forma inteligente.  
+                        Gracias a sensores que recopilan datos sobre humedad, luz, temperatura y calidad del aire, puedes conocer el estado real de tus plantas en todo momento.  
+                        Además, la app te envía notificaciones y consejos personalizados para que se mantengan saludables sin que tengas que adivinar cuándo regarlas o abonarlas.
+                    </p>
+                </div>
 
-                    <p class="respuesta" data-i18n="faq.items.4.answer">
-                        ¡Totalmente! <b>PlantaE</b> fue pensada para que cualquier persona, sin conocimientos de tecnología, pueda usarla sin complicaciones.  
-                        La interfaz es intuitiva y visual, con íconos fáciles de entender y mensajes claros.  
-                        Además, cuenta con tutoriales interactivos y soporte en línea para resolver dudas al instante.  
-                        Solo necesitas curiosidad y ganas de ver tus plantas más felices y saludables 🌿.
-                    </p>
-                </div>
-            </div>
-        </section>
+                <div class="faq-box">
+                    <div class="flex-desplegable" onclick="toggleFaq(this)">
+                        <h3 data-i18n="faq.items.2.question">¿Cómo instalo los sensores?</h3>
+                        <img class="flecha" src="assets/img/preguntas/flecha.svg" alt="Flecha desplegable" />
+                    </div>
 
-        <section class="contact" id="contacto">
-            <div class="contact__container">
-                <h2 class="contact__title" data-i18n="contact.title">Contacto</h2>
+                    <p class="respuesta" data-i18n="faq.items.2.answer">
+                        La instalación es muy sencilla: solo coloca los sensores en la maceta o cerca de la raíz de tus plantas,  
+                        conéctalos a la red Wi-Fi y sincronízalos con la aplicación <b>PlantaE</b>.  
+                        En pocos segundos, empezarás a recibir datos en tiempo real sobre las condiciones del entorno.  
+                        No necesitas conocimientos técnicos: la app te guía paso a paso con ilustraciones y un asistente virtual.
+                    </p>
+                </div>
 
-                <p class="contact__description" data-i18n="contact.description">
-                    ¿Tienes preguntas o necesitas ayuda? Contáctanos, estamos aquí para ayudarte.
-                </p>
+                <div class="faq-box full-width">
+                    <div class="flex-desplegable" onclick="toggleFaq(this)">
+                        <h3 data-i18n="faq.items.3.question">¿Es PlantaE adecuada para viveros?</h3>
+                        <img class="flecha" src="assets/img/preguntas/flecha.svg" alt="Flecha desplegable" />
+                    </div>
 
-                <form class="contact__form">
-                    <div class="contact__group">
-                        <input type="text" name="nombre" placeholder="Nombre" required data-i18n-placeholder="contact.form.name" />
-                    </div>
+                    <p class="respuesta" data-i18n="faq.items.3.answer">
+                        Sí, <b>PlantaE</b> ha sido diseñada tanto para hogares como para viveros.  
+                        Permite monitorear múltiples cultivos desde una misma plataforma, registrar datos históricos y programar riegos automáticos.  
+                        Los administradores pueden gestionar diferentes zonas, optimizar recursos y reducir el desperdicio de agua.  
+                        En viveros grandes, incluso es posible compartir el acceso con otros empleados o clientes para un control colaborativo.
+                    </p>
+                </div>
 
-                    <div class="contact__group">
-                        <input type="email" name="correo" placeholder="Correo electrónico" required data-i18n-placeholder="contact.form.email" />
-                    </div>
+                <div class="faq-box">
+                    <div class="flex-desplegable" onclick="toggleFaq(this)">
+                        <h3 data-i18n="faq.items.4.question">¿Es fácil para alguien sin experiencia técnica?</h3>
+                        <img class="flecha" src="assets/img/preguntas/flecha.svg" alt="Flecha desplegable" />
+                    </div>
 
-                    <div class="contact__group">
-                        <input type="tel" name="telefono" placeholder="Teléfono" required data-i18n-placeholder="contact.form.phone" />
-                    </div>
+                    <p class="respuesta" data-i18n="faq.items.4.answer">
+                        ¡Totalmente! <b>PlantaE</b> fue pensada para que cualquier persona, sin conocimientos de tecnología, pueda usarla sin complicaciones.  
+                        La interfaz es intuitiva y visual, con íconos fáciles de entender y mensajes claros.  
+                        Además, cuenta con tutoriales interactivos y soporte en línea para resolver dudas al instante.  
+                        Solo necesitas curiosidad y ganas de ver tus plantas más felices y saludables 🌿.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-                    <div class="contact__group">
-                        <textarea name="mensaje" placeholder="Mensaje" rows="10" required data-i18n-placeholder="contact.form.message"></textarea>
-                    </div>
+        <section class="contact" id="contacto">
+            <div class="contact__container">
+                <h2 class="contact__title" data-i18n="contact.title">Contacto</h2>
 
-                    <div class="contact__submit">
-                        <button type="submit" class="btn btn--primary" data-i18n="contact.form.submitButton">Enviar</button>
-                    </div>
-                </form>
-            </div>
-        </section>
+                <p class="contact__description" data-i18n="contact.description">
+                    ¿Tienes preguntas o necesitas ayuda? Contáctanos, estamos aquí para ayudarte.
+                </p>
 
-        <section class="download-section" id="download">
-            <div class="download-wrapper">
-                <img src="assets/img/descargar/imagen-principal.png" alt="App PlantaE" />
-                
-                <div class="download-card">
-                    <h2 data-i18n="download.title">¡Descarga PlantaE y cuida tus cultivos!</h2>
-                    
-                    <p data-i18n="download.description">
-                        Gestiona tus plantas de forma inteligente desde cualquier lugar. Disponible para iOS y Android, PlantaE te ofrece herramientas 
-                        para monitorear, programar riegos y recibir alertas en tiempo real.
-                    </p>
+                <form class="contact__form">
+                    <div class="contact__group">
+                        <input type="text" name="nombre" placeholder="Nombre" required data-i18n-placeholder="contact.form.name" />
+                    </div>
 
-                    <div class="store-buttons">
-                        <a href="https://play.google.com/store/games?hl=es_PE&pli=1/" target="_blank">
-                            <div class="store-icon-wrapper">
-                                <img src="assets/img/descargar/playstore.png" alt="Google Play" class="store-icon" />
-                            </div>
-                        </a>
+                    <div class="contact__group">
+                        <input type="email" name="correo" placeholder="Correo electrónico" required data-i18n-placeholder="contact.form.email" />
+                    </div>
 
-                        <a href="https://www.apple.com/store/" target="_blank">
-                            <div class="store-icon-wrapper">
-                                <img src="assets/img/descargar/apple.png" alt="App Store" class="store-icon" />
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+                    <div class="contact__group">
+                        <input type="tel" name="telefono" placeholder="Teléfono" required data-i18n-placeholder="contact.form.phone" />
+                    </div>
 
-    <footer>
-    <div class="footer-container">
-        <div class="footer-brand">
-            <img
-                src="assets/img/icons/EcoTech.png"
-                alt="Logo PlantaE"
-                class="footer-logo"
-            />
+                    <div class="contact__group">
+                        <textarea name="mensaje" placeholder="Mensaje" rows="10" required data-i18n-placeholder="contact.form.message"></textarea>
+                    </div>
 
-            <p><b>PlantaE</b></p>
-            <small>© 2025 Todos los derechos reservados</small>
-            <p class="footer-slogan">
-                Conectamos la <b>naturaleza</b> con la <b>tecnología</b> 🌿
-            </p>
+                    <div class="contact__submit">
+                        <button type="submit" class="btn btn--primary" data-i18n="contact.form.submitButton">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
 
-            </div>
+        <section class="download-section" id="download">
+            <div class="download-wrapper">
+                <img src="assets/img/descargar/imagen-principal.png" alt="App PlantaE" />
+                
+                <div class="download-card">
+                    <h2 data-i18n="download.title">¡Descarga PlantaE y cuida tus cultivos!</h2>
+                    
+                    <p data-i18n="download.description">
+                        Gestiona tus plantas de forma inteligente desde cualquier lugar. Disponible para iOS y Android, PlantaE te ofrece herramientas 
+                        para monitorear, programar riegos y recibir alertas en tiempo real.
+                    </p>
 
-            <div class="footer-links">
-                <h4>Legal</h4>
-                <a href="#politicas">Política de Privacidad</a>
-                <a href="#terminos">Términos y Condiciones</a>
-                <a href="#proteccion">Protección de Datos</a>
-            </div>
-                
-            <div class="footer-social">
-                <h4>Síguenos</h4>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/" aria-label="Facebook"
-                        ><img
-                        src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
-                        alt="Facebook"
-                        class="social-icon"
-                    /></a>
-                    <a href="https://www.instagram.com/" aria-label="Instagram"
-                        ><img
-                        src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
-                        alt="Instagram"
-                        class="social-icon"
-                    /></a>
-                    <a href="https://pe.linkedin.com/" aria-label="LinkedIn"
-                        ><img
-                        src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
-                        alt="LinkedIn"
-                        class="social-icon"
-                    /></a>
-                    <a href="https://x.com/" aria-label="X"
-                        ><img
-                        src="assets/img/icons/X.png"
-                        alt="X"
-                        class="social-icon"
-                    /></a>
-                </div>
-            </div>
-        </div>
-    </footer>
+                    <div class="store-buttons">
+                        <a href="https://play.google.com/store/games?hl=es_PE&pli=1/" target="_blank">
+                            <div class="store-icon-wrapper">
+                                <img src="assets/img/descargar/playstore.png" alt="Google Play" class="store-icon" />
+                            </div>
+                        </a>
 
-    <script src="assets/scripts/main.js" defer></script>
-    <script src="assets/scripts/desplegable-preguntas.js" defer></script>
-    <script src="assets/scripts/translations.js" defer></script>
+                        <a href="https://www.apple.com/store/" target="_blank">
+                            <div class="store-icon-wrapper">
+                                <img src="assets/img/descargar/apple.png" alt="App Store" class="store-icon" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    <div class="footer-container">
+        <div class="footer-brand">
+            <img
+                src="assets/img/icons/EcoTech.png"
+                alt="Logo PlantaE"
+                class="footer-logo"
+            />
+
+            <p><b>PlantaE</b></p>
+            <small>© 2025 Todos los derechos reservados</small>
+            <p class="footer-slogan">
+                Conectamos la <b>naturaleza</b> con la <b>tecnología</b> 🌿
+            </p>
+
+            </div>
+
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <a href="#politicas">Política de Privacidad</a>
+                <a href="#terminos">Términos y Condiciones</a>
+                <a href="#proteccion">Protección de Datos</a>
+            </div>
+                
+            <div class="footer-social">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" aria-label="Facebook"
+                        ><img
+                        src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                        alt="Facebook"
+                        class="social-icon"
+                    /></a>
+                    <a href="https://www.instagram.com/" aria-label="Instagram"
+                        ><img
+                        src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                        alt="Instagram"
+                        class="social-icon"
+                    /></a>
+                    <a href="https://pe.linkedin.com/" aria-label="LinkedIn"
+                        ><img
+                        src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                        alt="LinkedIn"
+                        class="social-icon"
+                    /></a>
+                    <a href="https://x.com/" aria-label="X"
+                        ><img
+                        src="assets/img/icons/X.png"
+                        alt="X"
+                        class="social-icon"
+                    /></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/scripts/main.js" defer></script>
+    <script src="assets/scripts/desplegable-preguntas.js" defer></script>
+    <script src="assets/scripts/translations.js" defer></script>
 </body>
 </html>
